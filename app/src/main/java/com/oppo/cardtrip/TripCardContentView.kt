@@ -104,7 +104,7 @@ class TripCardContentView : View {
                 top = minY - arcRadius / 2
             }
             arcTo(specialCorner, -90F, -180F) // Draw special corner (Top Right)
-            lineTo(maxX, maxY - (arcRadius / 2)) // Bottom right side
+            lineTo(maxX, maxY - (arcRadius)) // Bottom right side
             quadTo(maxX, maxY, maxX - cornerValue, maxY) // Bottom right side rounded corner to bottom right
             lineTo(maxX - arcRadius, maxY) // Bottom right
             close() // Closes and finishes the path
