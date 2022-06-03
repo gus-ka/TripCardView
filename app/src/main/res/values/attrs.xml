@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="TripCardHeaderView">
-        <attr name="borderColor" format="reference" />
+    <declare-styleable name="SpecialCardView">
+        <attr name="borderSpecialCardViewColor" format="reference" />
+        <attr name="cornerValue" format="dimension" />
+        <attr name="cornerTopLeftValue" format="dimension" />
+        <attr name="cornerTopRightValue" format="dimension" />
+        <attr name="cornerBottomRightValue" format="dimension" />
+        <attr name="cornerBottomLeftValue" format="dimension" />
+        <attr name="allCornerType" format="enum">
+            <enum name="ROUNDED" value="0"/>
+            <enum name="CURVE" value="1"/>
+            <enum name="CUT" value="2"/>
+        </attr>
+        <attr name="topLeftCornerType" format="enum">
+            <enum name="ROUNDED" value="0"/>
+            <enum name="CURVE" value="1"/>
+            <enum name="CUT" value="2"/>
+        </attr>
+        <attr name="topRightCornerType" format="enum">
+            <enum name="ROUNDED" value="0"/>
+            <enum name="CURVE" value="1"/>
+            <enum name="CUT" value="2"/>
+        </attr>
+        <attr name="bottomRightCornerType" format="enum">
+            <enum name="ROUNDED" value="0"/>
+            <enum name="CURVE" value="1"/>
+            <enum name="CUT" value="2"/>
+        </attr>
+        <attr name="bottomLeftCornerType" format="enum">
+            <enum name="ROUNDED" value="0"/>
+            <enum name="CURVE" value="1"/>
+            <enum name="CUT" value="2"/>
+        </attr>
     </declare-styleable>
 </resources>
